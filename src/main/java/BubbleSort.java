@@ -1,8 +1,8 @@
 import java.util.List;
 
-public class BubbleSorter {
+public class BubbleSort {
 
-    public static void sort(int[] array) {
+    public static void sortArray(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = array.length - 1; j > i; j--) {
                 if (array[j - 1] > array[j]) {
@@ -14,7 +14,7 @@ public class BubbleSorter {
         }
     }
 
-    public static void bubbleSortArrayList(List<Integer> list) {
+    public static void sortArrayList(List<Integer> list) {
         int temp;
         boolean sorted = false;
 

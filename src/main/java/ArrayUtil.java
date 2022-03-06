@@ -1,7 +1,7 @@
-public class ArrayClass {
+public class ArrayUtil {
 
-    public int[] getArray() {
-        int[] arr = new int[100000];
+    public static int[] create() {
+        int[] arr = new int[10];
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (int) (Math.random() * 10);
